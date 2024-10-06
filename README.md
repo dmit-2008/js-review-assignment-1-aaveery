@@ -11,22 +11,24 @@ You will be assessed on your knowledge of the following:
 
 ## Steps
 
-1. Open a terminal and run your backend server reference [the backend documentation here](backend/README.md).
+1. Open a terminal and run your backend server reference [the backend documentation here](backend/README.md). done
 
 2. Open a new terminal and create an npm project in the `frontend` folder so your `package.json` file is next to the `index.html` file.
-Note: This is for the automated testing environment to work correctly.
+Note: This is for the automated testing environment to work correctly. done
 
 3. Install the following dependencies.
 - bootstrap
 - parcel
-Note: These should be present in your `package.json` file.
+Note: These should be present in your `package.json` file. done
 
-4. Set up Parcel properly to run your front-end application and add a script to run the application.
+4. Set up Parcel properly to run your front-end application and add a script to run the application. 
 
 5. Import bootstrap in your `index.js` file.
 ```js
 import 'bootstrap/dist/css/bootstrap.min.css'
 ```
+done
+
 
 6. Intercept and handle the form submission event, and make a GET request to the back-end server to get the jobs. This should be completed by a function in the `api/jobs.js` file.
 Note:

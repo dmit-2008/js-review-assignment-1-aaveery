@@ -1,2 +1,9 @@
 // your code goes here.
-import 'bootstrap/dist/css/bootstrap.min.css'
+
+import { getJobsList } from './api/jobs.js';
+
+let jobListElement = document.querySelector(".searched-jobs")
+
+getJobsList().then((data) => {
+    console.log(data);
+}) 
