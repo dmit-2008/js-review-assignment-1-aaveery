@@ -8,7 +8,7 @@ const getJobsList = () => {
         }).then((data) => {
             return data
         })
-        .catch(error => console.log(error))
+
 }
 
 export { getJobsList }
